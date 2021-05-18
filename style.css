@@ -1,0 +1,49 @@
+body {
+  background-color: #494950;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyimg {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.item {
+  color: whitesmoke;
+  display: flex;
+  align-items: baseline;
+}
+
+.fd {
+  color: whitesmoke;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.it {
+  color: whitesmoke;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  color: #ff1a8c;
+}
